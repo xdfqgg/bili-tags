@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "bili-tags",
+  "description": "把按标签关键词搜到的视频随机混入 B 站推荐流（教学项目）",
+  "version": "0.1.0",
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.bilibili.com/*"],
+      "js": ["content_script.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "options_page": "options.html"
+}

@@ -1,0 +1,8 @@
+/* options 页样式 —— 骨架阶段先给最基础的可读排版 */
+body {
+  font-family: system-ui, "Microsoft YaHei", sans-serif;
+  max-width: 720px;
+  margin: 32px auto;
+  padding: 0 16px;
+  color: #18191c;
+}
