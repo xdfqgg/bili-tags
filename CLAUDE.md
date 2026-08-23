@@ -14,7 +14,7 @@ Chrome 扩展（Manifest V3）：
 - 项目位置：`F:\claude111\bili-tags\`（源码在本仓库）
 - GitHub：连远程仓库（gh CLI 未装 → git 原生命令，认证方式 Step 1 选）
 - 数据来源：从 B 站 API 抓取（合规底线见下）
-- 技术栈：按需求推导，Step 2 现场选型（用户拍板，可混合语言）
+- 技术栈：TypeScript + esbuild + Shadow DOM + chrome.storage.local（2026-08-23 定，详见 docs/ADR/）
 - 节奏：全讲解模式，每步停下确认
 
 ## 教学约定（每步固定格式）
