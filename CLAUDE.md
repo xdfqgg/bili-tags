@@ -15,6 +15,7 @@ Chrome 扩展（Manifest V3）：
 - GitHub：连远程仓库（gh CLI 未装 → git 原生命令，认证方式 Step 1 选）
 - 数据来源：从 B 站 API 抓取（合规底线见下）
 - 技术栈：TypeScript + esbuild + Shadow DOM + chrome.storage.local（2026-08-23 定，详见 docs/ADR/）
+- 运行/验证浏览器：**Edge**（本机无 Chrome，2026-08-23 定；`edge://extensions` 加载，自动化走 playwright channel=msedge）
 - 节奏：全讲解模式，每步停下确认
 
 ## 教学约定（每步固定格式）
